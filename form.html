@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <h1>Student Registration Form</h1>
+        <label for="fname">First Name: </label>
+        <input type="text" name="fname" id="fname" placeholder="Enter your first name"><br>
+        <label for="lname">Last Name: </label>
+        <input type="text" name="lname" id="lname" placeholder="Enter your last name"><br>
+        <label for="year">Year: </label>
+        <select name="year" id="year">
+            <option value="FY">FY</option>
+            <option value="SY">SY</option>
+            <option value="TY">TY</option>
+            <option value="BE">BE</option>  
+        </select>
+        <br>
+        <label for="Gender">Gender: </label>
+        <input type="radio" name="Gender" id="Gender">Male
+        <input type="radio" name="Gender" id="Gender">Female<br>
+        <label for="Phone">Phone: </label>
+        <input type="text" id="Phone" name="Phone"><br>
+        <label for="birthday">Date of Birth</label>
+        <input type="date" name="birthday" id="birthday"><br>
+        <label for="address">Current Address</label>
+        <textarea name="address" id="address" cols="10" rows="3" placeholder="Enter your address"></textarea><br>
+        <label for="pincode">Pincode</label>
+        <input type="text" name="pincode" id="pincode" placeholder="Pin Code"><br>
+        
+        <label for="State">State: </label>
+        <select name="State" id="State">
+            <option value="Maharashta">Maharashtra</option>
+            <option value="Rajasthan">Rajasthan</option>
+            <option value="Kashmir">Kashmir</option>
+            <option value="Kerela">Kerela</option>
+        </select>
+        <br>
+        <label for="Country">Country: </label>
+        <select name="Country" id="Country">
+            <option value="India">India</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="Dubai">Dubai</option>
+            <option value="Iran">Iran</option>
+        </select>
+        <br>
+        <label for="Email">Email(Official) </label>
+        <input type="text" placeholder="Enter your email id"><br>
+        <label for="Hobbies">Hobbies</label>
+        <input type="checkbox" name="Hobbies" id="Hobbies">Reading
+        <input type="checkbox" name="Hobbies" id="Hobbies">Dancing
+        <input type="checkbox" name="Hobbies" id="Hobbies">Singing
+        <button>Register</button>
+    </form>
+</body>
+</html>
